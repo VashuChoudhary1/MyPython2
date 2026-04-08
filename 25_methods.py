@@ -1,4 +1,5 @@
 #instance, class and static methods
+#INSTANCE METHOD - HAS SELF PARAMTER , IT CAN ACCESS CLASS AS WELL AS INSTANCE ATTRIBUTES
 class Laptop:
     storage_type = "ssd"
 

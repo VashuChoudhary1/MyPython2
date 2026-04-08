@@ -8,7 +8,7 @@ class Laptop:
 
     @classmethod #it is decorator that make this function as class method , chng behaviour 
     def get_storage_type(cls):
-        print(f"storage type is {cls.storage_type}")
+        print(f"storage type is {cls.storage_type}{cls.RAM}") #it only access class atribute not methods
 
 l1= Laptop("16gb","512gb")
 print(Laptop.get_storage_type())
