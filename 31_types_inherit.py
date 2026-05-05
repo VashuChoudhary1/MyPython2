@@ -1,5 +1,6 @@
 #1.Single Level Inheritance - Employee - Adminstration
 #2. Multi Level Inheritance - Employee - Teacher - Admin
+#3. Multiple Inheritance
 class Employee:
     start_time = "9 am"
     end_time = "6 pm"
